@@ -1,0 +1,9 @@
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h3 class="panel-title">关注微信公众号</h3>
+	</div>
+	<div class="panel-body">
+		<!--php中include的坑人之处，图片的相对路径是相对工作目录的。。。-->
+		<img src=" <?php echo dirname(dirname(__FILE__)) . '\imgs\qrcode.jpg'; ?> " style="height: 230.5px;width: 230.5px;"/>
+	</div>
+</div>
