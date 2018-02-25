@@ -6,9 +6,9 @@
  * Time: 3:54
  */
 
-define('HOST', '47.100.5.108');  //地址
-define('USER', 'root');  //用户
-define('PASS', '52671s');    //密码
+define('HOST', '');  //地址
+define('USER', '');  //用户
+define('PASS', '');    //密码
 
 
 define('PIX', 'bg_');    //表前缀
